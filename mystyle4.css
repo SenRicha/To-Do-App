@@ -1,0 +1,290 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: block;
+        background-color: white;
+        margin: 0px;
+        padding: 0px;
+        font-family: sans-serif;
+        text-align: center;
+}
+.scar{
+        text-align: center;
+        
+}
+.tasklist{
+            size: 80px;
+}
+.horizontal1{
+                display: block;
+                width: 120px;
+                height: 2px;
+                background: #000000;
+                position: absolute;
+                right: 400px;
+                top: 30px;
+                z-index: -2;
+                filter: blur(5px);
+}
+.horizontal2{
+    display: block;
+                width: 120px;
+                height: 2px;
+                background: #000000;
+                position: absolute;
+                left: 400px;
+                top: 30px;
+                z-index: -5;
+                filter: blur(5px);
+
+}
+.main{
+    text-align: center;
+    width: 100%;
+}
+.first{
+        top: auto;
+        margin-top: 50px;
+        font-size: 30px;
+}
+.container{
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 580px;
+    filter: blur(5px);
+}
+.container .box{
+    width: 300px;
+    height: 300px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding : 20px;
+    border: 1px solid orangered;
+    box-shadow: 8px 10px gainsboro;
+    position: relative;
+    
+}
+
+
+
+.allign-icon{
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            
+}
+.cardLine{
+
+            width: 87%;
+            margin-left: 52px ;
+}
+.cardResponse{
+        color: red;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+        
+}
+.cardCheckBox{
+        margin-left: 20px;
+        margin-top: 20px;
+        color: black;
+        font-size: 20px;
+}
+h1{
+    font-size: 20px;
+    font-weight: light;
+    filter: blur(5px);
+}
+.fa{
+    color: red;
+    filter: blur(5px);
+    
+}
+.trip{
+        font-size: 25px;
+}
+.repository{
+    width: 80%;
+    height: 300px;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+
+    
+    
+}
+.paris{
+        font-size: 50px;
+}
+.case{
+    width:300px;
+    height: 150px;
+    background: white;
+    margin-top: -50px;
+    margin-left: 100px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding : 30px;
+    border: 1px solid orangered;
+    box-shadow: 8px 10px gainsboro;
+    position: sticky;
+    
+
+}
+
+.button {
+    background-color: crimson;
+    border-radius: 15px;
+    border: 1px;
+    color: white;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 800px;
+    cursor: pointer;
+    position: relative;
+    top: -50px;
+    left: 100px;
+    
+}
+.addNew{
+        color: crimson;
+        position: relative;
+        top: -15px;
+        
+}
+.Next{
+        position: relative;
+        top: 20px;
+        left: 200px;
+}
+.Back{
+        position: relative;
+        top: 5px;
+        right: 90px;
+}
+@media (min-width:320px) and (max-width:480px)
+{
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .horizontal1{
+        display: none;
+    }
+    .paris{
+                position: relative;
+                top: 100px;
+                left: 100px;
+                font-size: 90px;
+                white-space: nowrap;
+    }
+    .horizontal2{
+                    display: none;
+    }
+    .container{
+        width: 50%;
+        height: 300px;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 580px;
+        filter: blur(5px);
+    }
+    .first .fa{
+                    position: relative;
+                    left: -100px;
+                    font-size: 50px;
+                    top: -20px;
+    }
+    .back{
+            display: none;
+    }
+    .container .box{
+        width: 500px;
+        height: 700px;
+        position: relative;
+        top: 100px;
+        left: -500px;
+        border-radius: 20px;
+        
+    }
+    .allign-icon{
+                    position: relative;
+                    top: 500px;
+                    left: 200px;
+                    
+    }
+    .trip{
+            font-size: 50px;
+    }
+    .cardLine{
+                position: relative;
+                left: 20px;
+    }
+    .cardResponse{
+                    position: relative;
+                    top: 50px;
+                    left: -10px;
+    }
+    .cardCheckBox{
+        display: none;
+        
+                    position: relative;
+                    top: 10px;
+                    left: -10px;
+    }
+    .case{
+            position: relative;
+            top: 10px;
+            left: -290px;
+            width: 500px;
+            height: 250px;
+    }
+.addNew{
+            position: relative;
+            top: -10px;
+            left: -10px;
+            font-size: 40px;
+}
+input{
+            position: relative;
+            top: 10px;
+            left: 10px;
+            width: 350px;
+            height: 40px;
+            
+            
+}
+.button{
+            position: relative;
+            top: -60px;
+            left: -10px;
+            width: 150px;
+            height: 50px;
+            font-size: 30px;
+}
+.Next{
+        position: relative;
+        top: 500px;
+        left: 500px;
+        font-size: 30px;
+}
+.Back{
+        position: relative;
+        top: 470px;
+        left: -100px;
+        font-size: 30px;
+}
+}
+

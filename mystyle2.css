@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: block;
+        background-color: white;
+        margin: 0px;
+        padding: 0px;
+        font-family: sans-serif;
+        text-align: center;
+}
+.scar{
+        text-align: center;
+        
+}
+.tasklist{
+            size: 80px;
+}
+.horizontal1{
+                display: block;
+                width: 120px;
+                height: 2px;
+                background: #000000;
+                position: absolute;
+                right: 400px;
+                top: 30px;
+                z-index: -2;
+}
+.horizontal2{
+    display: block;
+                width: 120px;
+                height: 2px;
+                background: #000000;
+                position: absolute;
+                left: 400px;
+                top: 30px;
+                z-index: -5;
+
+}
+.main{
+    text-align: center;
+    width: 100%;
+}
+.first{
+        top: auto;
+        margin-top: 50px;
+        font-size: 30px;
+}
+.container{
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 580px;
+}
+.container .box{
+    width: 300px;
+    height: 300px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding : 20px;
+    border: 1px solid orangered;
+    box-shadow: 8px 10px gainsboro;
+    position: relative;
+    
+}
+
+
+
+.allign-icon{
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            
+}
+.paris{
+            font-size: 50px;
+}
+.cardLine{
+
+            width: 87%;
+            margin-left: 52px ;
+}
+.cardResponse{
+        color: red;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+        
+}
+.cardCheckBox{
+        margin-left: 20px;
+        margin-top: 20px;
+        color: black;
+        font-size: 20px;
+}
+h1{
+    font-size: 20px;
+    font-weight: light;
+}
+.fa{
+    color: red;
+    
+}
+.trip{
+        font-size: 25px;
+}
+.up{
+        position: relative;
+        top: 60px;
+        left: 500px;
+}
+.down{
+        position: relative;
+        top: 50px;
+        right: 400px;
+}
+ @media (min-width:320px) and (max-width:480px)
+{
+
+    .scar{
+            width: 500px;
+            height: 300px;
+            position: relative;
+            top: 100px;
+            right: 100px;
+}
+.container{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 580px;
+    
+}
+.container .box{
+    width: 600px;
+    height: 1000px;
+    padding : 20px;
+    position: relative;
+    top: -10px;
+    left: -400px;
+    border-radius: 20px;
+    
+    
+}
+.horizontal1{
+    display: none;
+}
+.trip{
+        font-size: 70px;
+}
+.cardResponse{
+
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+    bottom: -70px;
+    
+}
+.cardCheckBox{
+   
+    font-size: 50px;
+    position: relative;
+    top: 100px;
+    left: -50px;
+    
+}
+ .cardCheckBox.fa{
+ position: relative;
+ top: 400px;
+ right: -100px;
+ font-size: 50px;
+    
+}
+.scar{
+        position: relative;
+        left: 200px;
+        top:100px ;
+        font-size: 80px;
+        white-space: nowrap;
+        margin: 0px;
+}
+.horizontal2{
+    display: none;
+
+}
+.up{
+        position: relative;
+        top: 630px;
+        left: 700px;
+        font-size: 30px;
+}
+.allign-icon {
+            position: relative;
+            top: 600px;
+            left: 70px;
+            
+}
+
+.first .fa{
+    z-index: 3;
+    position: relative;
+    top: -180px;
+    left: 50px;
+    font-size: 80px;
+}
+.down{
+        position: relative;
+        top: 600px;
+        left:-50px;
+        font-size: 30px;
+}
+.back{
+        display: none;
+}
+.scar .paris{
+        position: relative;
+        top: 40px;
+        left: 70px;
+        font-size: 90px;
+        
+        
+}
+input.check{
+                width: 100px;
+                height: 30px;
+                
+}
+.cardLine{
+            width: 400px;
+            position: relative;
+            left: 120px;
+            top: 20px;
+            height: 5px;
+}
+}

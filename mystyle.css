@@ -1,0 +1,211 @@
+body{
+                display: block;
+                    background-color: white;
+                    margin: 0px;
+                    padding: 0px;
+                    font-family: sans-serif;
+            }
+
+.main{
+        width: 80%;
+        margin-left: auto;
+        margin-top: 200px;
+}
+.taskList{
+                width: 50%;
+                display: inline-block;
+                margin: 0px; 
+                font-size: 30px;              
+
+}
+
+.addList{
+                width: 49%;
+                display: inline-block;
+                margin: 0px;
+}
+.container1{
+        width: 100%;
+}
+.first{
+        color: grey;
+}
+.container{
+                width: 80%;
+                height: 300px;
+                margin-left: 250px;
+}
+.container .box{
+        width: 200px;
+        height: 300px;
+        background: white;
+        float: left;
+        margin: 20px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding : 20px;
+        border: 1px solid orangered;
+        box-shadow: 8px 10px gainsboro;
+}
+.completed1{
+                white-space: nowrap;
+}
+.trip{
+        width:200px;
+        font-size: 25px;
+        text-align: left;
+        font-weight: lighter;
+        color: red;
+        
+    }
+    .tripo{
+        width:200px;
+        font-size: 25px;
+        text-align: left;
+        font-weight: lighter;
+        color: red;
+        
+    }
+    .tripsy{
+        
+        width:200px;
+        font-size: 25px;
+        text-align: left;
+        font-weight: lighter;
+        color: red;
+
+    }
+    .completed1{
+                width: 20px;
+                font-size: 25px;
+                color: red;
+
+    }
+    .completed2{
+                width: 20px;
+                font-size: 25px;
+                color: red;
+                white-space: nowrap;
+    }
+    .completed3{
+                        width: 20px;
+                        font-size: 23px;
+                        color: red;
+                        white-space: nowrap;
+    }
+    
+    hr{
+            width: 165px;
+            margin-left: 10px;
+    }
+    .fa{
+            color: red;
+    }
+    .shift{
+            position: relative;
+            top: 100px;
+            left: 200px;
+    }
+    .move{
+            position: relative;
+            top: 70px;
+            right: 550px;
+    }
+    @media only screen and (max-width: 600px){
+        body{
+                margin: 0;
+        }
+        .main{
+                margin: unset;
+        }
+        .taskList{
+                        font-size: 40px;
+                        position: relative;
+                        right: -50px;
+                        top: 18px;
+                        white-space: nowrap;
+        }
+.container{
+               margin: 0px 0px 0px 0px;
+                
+}
+.container .box{
+        width: 350px;
+        height: 20px;
+        position: relative;
+        left: 50px;
+        bottom: -40px;
+        margin: 20px;
+        padding: 50px;
+}
+.addList{
+        width: 49%;
+        display: inline-block;
+        position: relative;
+        top: 10px;
+        left: 50px;
+        font-size: 20px;
+        margin: 0px;
+        white-space: nowrap;
+}
+.completed2{
+       display: none;
+}
+.completed3{
+               display: none;
+}
+.completed1{
+        display: none;
+
+
+}
+hr{
+        display: none;
+}
+.pending3{
+        display: none;
+}
+.trip{
+        position: relative;
+        top: -30px;
+        margin: 0px;
+        left: 10px;
+        z-index: 2;
+        font-size: 40px;
+        white-space: nowrap;
+    }
+    .tripo{
+        position: relative;
+        top: -30px;
+        margin: 0px;
+        left: 10px;
+        z-index: 2;
+        font-size: 40px;
+        white-space: nowrap;
+    }
+    .tripsy{
+        
+        position: relative;
+        top: -30px;
+        left: 10px;
+        margin: 0px;
+        font-size: 40px;
+        white-space: nowrap;
+
+    }
+    .pending1{
+            display: none;
+    }
+    .pending2{
+            display: none;
+    }
+    .shift{
+            margin: 0px;
+            position: relative;
+            right: 10px;
+    }
+    .move{
+            position: relative;
+            right: 10px;
+    }
+    }
